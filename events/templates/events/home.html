@@ -1,0 +1,10 @@
+{% extends 'events/base.html' %}
+
+{% block content %}
+
+<h3>events 'home' page: for {{ month_number }}/{{ year }}</h3>
+
+{{ cal|safe }}
+
+<p>Does {{ test }} show up capitalized?</p>
+{% endblock %}
